@@ -17,7 +17,7 @@ $(document).ready(function(){
             filter = 0;
         }else if (completedChecked.checked && !notCompletedChecked.checked) {
             filter = 1;
-        }else if (!completedChecked.checked && !notCompletedChecked.checked) {
+        }else if (!completedChecked.checked && notCompletedChecked.checked) {
             filter = 2;
         }else {
             filter = 3;
